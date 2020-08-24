@@ -4,7 +4,7 @@
   <!-- ================================= Industrial ==================================== -->
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_Gun</defName>
+    <defName>Gun</defName>
     <label>Gun</label>
     <description>GN Placeholder.</description>
     <graphicData>
@@ -14,7 +14,7 @@
     <uiIconScale>1.5</uiIconScale>
     <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
