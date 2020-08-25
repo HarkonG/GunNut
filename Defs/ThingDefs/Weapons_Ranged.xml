@@ -21,7 +21,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_AKOneOThree</defName>
     <label>AK-103</label>
-    <description>placeholder</description>
+    <description>The modern version of the famous AK-47. This custom AK-103 features some Magpul attachments and a holographic sight.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_AKOneOThree</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -107,7 +107,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_SAFiftyEight</defName>
     <label>SA-58</label>
-    <description>placeholder</description>
+    <description>Improved version of the FAL. This custom SA-58 comes with a drum mag and 1-6x scope as well as some attachments to improve recoil control and ergonomics.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_SAFiftyEight</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -194,7 +194,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_RSevenHundred</defName>
     <label>R700</label>
-    <description>placeholder</description>
+    <description>Heavily modified version of the Remington 700 chambered in .300 W Mag featuring a long range scope and a big a** suppressor.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_RSevenHundred</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -278,7 +278,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_MFourAOne</defName>
     <label>M4A1</label>
-    <description>placeholder</description>
+    <description>Heavily modified version of the classic M4A1 featuring an improved foregrip, 60 round mag, a holographic sight and a suppressor so you can shoot at night and never wake up your fellow colonists.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_MFourAOne</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -364,7 +364,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_AKOneOFive</defName>
     <label>AK-105</label>
-    <description>placeholder</description>
+    <description>The smaller sister of the AK-74M, this AK-105 features some ZenitCo attachments as well as an OKP sight.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_AKOneOFive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -450,7 +450,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_MPSevenAOne</defName>
     <label>MP7A1</label>
-    <description>placeholder</description>
+    <description>This weapon was entirely designed to be able to penetrate Kevlar body more effectively. This MP7A1 features a red dot sight, 40 round mags and a suppressor.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_MPSevenAOne</texPath>
       <graphicClass>Graphic_Single</graphicClass>
