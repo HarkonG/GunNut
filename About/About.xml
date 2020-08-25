@@ -8,10 +8,10 @@
 		<li>1.2</li>
 	</supportedVersions>
 	<description>
-	GunNut description placeholder.
+	A small personal weapon pack that I decided to release as a mod. The weapons in this pack feature some custom attachments and setups not usually present in other mods.
 	</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Royalty</li>		
+		<li>Ludeon.RimWorld.Royalty</li>
 	</loadAfter>
 </ModMetaData>
