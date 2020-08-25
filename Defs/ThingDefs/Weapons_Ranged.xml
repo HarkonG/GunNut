@@ -46,9 +46,9 @@
       <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>45</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -132,9 +132,9 @@
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>45</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -219,9 +219,9 @@
       <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>50</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -303,9 +303,9 @@
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>45</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -389,9 +389,9 @@
       <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>45</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -475,7 +475,7 @@
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>75</Steel>
+      <Steel>35</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
