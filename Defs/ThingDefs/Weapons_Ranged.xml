@@ -25,6 +25,7 @@
     <graphicData>
       <texPath>Things/Weapons/GN_AKOneOThree</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.34</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -111,6 +112,7 @@
     <graphicData>
       <texPath>Things/Weapons/GN_SAFiftyEight</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.6</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -198,6 +200,7 @@
     <graphicData>
       <texPath>Things/Weapons/GN_RSevenHundred</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.8</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -282,6 +285,7 @@
     <graphicData>
       <texPath>Things/Weapons/GN_MFourAOne</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.34</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -368,6 +372,7 @@
     <graphicData>
       <texPath>Things/Weapons/GN_AKOneOFive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -454,6 +459,7 @@
     <graphicData>
       <texPath>Things/Weapons/GN_MPSevenAOne</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
@@ -499,6 +505,181 @@
     <tools>
       <li>
         <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== M1A =====-->
+  <!--===== Same dmg, better. =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_MOneA</defName>
+    <label>M1A bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>GN_MOneA</defName>
+    <label>M1A</label>
+    <description>The descendant of the classic M1 Garand. This M1A comes with a 30 round mag, a HAMR scope and a slick looking Archangel stock.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_MOneA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.6</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>3.2</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_MOneA</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>30.9</range>
+        <soundCast>GN_Shot_MOneA</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== Saiga 12K =====-->
+  <!--===== Same dmg, better =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_SaigaTwelveK</defName>
+    <label>Saiga 12k blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.14</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>GN_SaigaTwelveK</defName>
+    <label>Saiga 12K</label>
+    <description>One day Mikhail Kalashnikov woke up and thought what if I make an AK that can shoot shotgun shells. This Saiga12K features a red dot sight, a drum mag and a comfortable foregrip.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_SaigaTwelveK</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.44</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>31000</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.67</AccuracyTouch>
+      <AccuracyShort>0.74</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_SaigaTwelveK</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>12.9</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>GN_Shot_SaigaTwelveK</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
