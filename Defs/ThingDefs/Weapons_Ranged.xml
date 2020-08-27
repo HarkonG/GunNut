@@ -27,6 +27,9 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.34</drawSize>
     </graphicData>
+    <thingCategories>
+      <li>GunNut</li>
+    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -114,6 +117,9 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.6</drawSize>
     </graphicData>
+    <thingCategories>
+      <li>GunNut</li>
+    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -202,6 +208,9 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.8</drawSize>
     </graphicData>
+    <thingCategories>
+      <li>GunNut</li>
+    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <researchPrerequisite>GN_Research</researchPrerequisite>
@@ -287,6 +296,9 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.34</drawSize>
     </graphicData>
+    <thingCategories>
+      <li>GunNut</li>
+    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <researchPrerequisite>GN_Research</researchPrerequisite>
@@ -374,6 +386,9 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
+    <thingCategories>
+      <li>GunNut</li>
+    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -461,6 +476,9 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
+    <thingCategories>
+      <li>GunNut</li>
+    </thingCategories>
     <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
       <researchPrerequisite>GN_Research</researchPrerequisite>
@@ -549,6 +567,9 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.6</drawSize>
     </graphicData>
+    <thingCategories>
+      <li>GunNut</li>
+    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>10000</WorkToMake>
@@ -636,6 +657,9 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.44</drawSize>
     </graphicData>
+    <thingCategories>
+      <li>GunNut</li>
+    </thingCategories>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
       <researchPrerequisite>GN_Research</researchPrerequisite>
