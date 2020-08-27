@@ -13,5 +13,7 @@
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
+		<li>XeoNovaDan.ProperShotguns</li>
+		<li>VanillaExpanded.VWE</li>
 	</loadAfter>
 </ModMetaData>
