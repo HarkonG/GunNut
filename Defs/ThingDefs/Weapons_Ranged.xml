@@ -104,7 +104,7 @@
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>    
+    </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12</damageAmountBase>
@@ -753,5 +753,199 @@
       </li>
     </tools>
   </ThingDef>
+
+  <!--===== Bullpup PKP =====-->
+  <!--===== Same dmg, better =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_BullpupPKP</defName>
+    <label>Bullpup PKP bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>GN_BullpupPKP</defName>
+    <label>Bullpup PKP "Hotpipe"</label>
+    <description>Bullpup version of the "Pecheneg" or PKP, the smaller size of this desing allows for a better performance during urban combat without losing firepower.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_BullpupPKP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
+    <thingCategories>
+      <li>GunNut</li>
+    </thingCategories>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>35000</WorkToMake>
+      <Mass>9.5</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.20</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>60</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_BullpupPKP</defaultProjectile>
+        <warmupTime>2.4</warmupTime>
+        <range>33</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>6</burstShotCount>
+        <soundCast>GN_Shot_BullpupPKP</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>GunHeavy</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== Glock 17 =====-->
+  <!--===== Less damage, beter and faster =====-->
+  <!--===== Bullpup PKP =====-->
+  <!--===== Same dmg, better =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_GlockSeventeen</defName>
+    <label>Glock 17 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>9</damageAmountBase>    
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>GN_GlockSeventeen</defName>
+    <label>Glock 17 "Zev Tech"</label>
+    <description>In the present day, more than 40 countries use Glock pistols on their police corps. This Glock 17 is modified with Zev Tech attachments as well as a Trijicon RMR Reflex Sight.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_GlockSeventeen</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
+    <thingCategories>
+      <li>GunNut</li>
+    </thingCategories>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.0</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>   
+    <costList>
+      <Steel>20</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_GlockSeventeen</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>        
+        <soundCast>GN_Shot_GlockSeventeen</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>      
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>  
 
 </Defs>

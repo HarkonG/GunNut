@@ -152,7 +152,7 @@
         </subSounds>
     </SoundDef>
 
-     <SoundDef>
+    <SoundDef>
         <defName>GN_Shot_MOneA</defName>
         <context>MapOnly</context>
         <eventNames />
@@ -187,6 +187,56 @@
                 <grains>
                     <li Class="AudioGrain_Folder">
                         <clipFolderPath>Weapons/GN_Shot_SaigaTwelveK</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>GN_Shot_BullpupPKP</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/GN_Shot_BullpupPKP</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>GN_Shot_GlockSeventeen</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/GN_Shot_GlockSeventeen</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
