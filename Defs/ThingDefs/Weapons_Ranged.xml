@@ -855,9 +855,7 @@
   </ThingDef>
 
   <!--===== Glock 17 =====-->
-  <!--===== Less damage, beter and faster =====-->
-  <!--===== Bullpup PKP =====-->
-  <!--===== Same dmg, better =====-->
+  <!--===== Less damage, beter and faster =====-->  
   <ThingDef ParentName="BaseBullet">
     <defName>GN_Bullet_GlockSeventeen</defName>
     <label>Glock 17 bullet</label>
