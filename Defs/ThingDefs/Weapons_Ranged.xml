@@ -20,7 +20,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_AKOneOThree</defName>
-    <label>AK-103</label>
+    <label>AK-103 "Magpul"</label>
     <description>The modern version of the famous AK-47. This custom AK-103 features some Magpul attachments and a holographic sight.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_AKOneOThree</texPath>
@@ -114,7 +114,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_SAFiftyEight</defName>
-    <label>SA-58</label>
+    <label>SA-58 "Juice Cannon"</label>
     <description>Improved version of the FAL. This custom SA-58 comes with a drum mag and 1-6x scope as well as some attachments to improve recoil control and ergonomics.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_SAFiftyEight</texPath>
@@ -209,7 +209,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_RSevenHundred</defName>
-    <label>R700</label>
+    <label>R700 "Hawk"</label>
     <description>Heavily modified version of the Remington 700 chambered in .300 W Mag featuring a long range scope and a big a** suppressor.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_RSevenHundred</texPath>
@@ -301,7 +301,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_MFourAOne</defName>
-    <label>M4A1</label>
+    <label>M4A1 "Gun Nut"</label>
     <description>Heavily modified version of the classic M4A1 featuring an improved foregrip, 60 round mag, a holographic sight and a suppressor so you can shoot at night and never wake up your fellow colonists.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_MFourAOne</texPath>
@@ -395,7 +395,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_AKOneOFive</defName>
-    <label>AK-105</label>
+    <label>AK-105 "Aggressor"</label>
     <description>The smaller sister of the AK-74M, this AK-105 features some ZenitCo attachments as well as an OKP sight.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_AKOneOFive</texPath>
@@ -489,7 +489,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_MPSevenAOne</defName>
-    <label>MP7A1</label>
+    <label>MP7A1 "Maschinenpistole"</label>
     <description>This weapon was entirely designed to be able to penetrate Kevlar body more effectively. This MP7A1 features a red dot sight, 40 round mags and a suppressor.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_MPSevenAOne</texPath>
@@ -584,7 +584,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_MOneA</defName>
-    <label>M1A</label>
+    <label>M1A "Archangel"</label>
     <description>The descendant of the classic M1 Garand. This M1A comes with a 30 round mag, a HAMR scope and a slick looking Archangel stock.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_MOneA</texPath>
@@ -678,7 +678,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_SaigaTwelveK</defName>
-    <label>Saiga 12K</label>
+    <label>Saiga 12K "Sweeper"</label>
     <description>One day Mikhail Kalashnikov woke up and thought what if I make an AK that can shoot shotgun shells. This Saiga12K features a red dot sight, a drum mag and a comfortable foregrip.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_SaigaTwelveK</texPath>
