@@ -159,7 +159,7 @@
         <defaultProjectile>GN_Bullet_SAFiftyEight</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>35</range>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>GN_Shot_SAFiftyEight</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -489,7 +489,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>GN_MPSevenAOne</defName>
-    <label>MP7A1 "Maschinenpistole"</label>
+    <label>MP7A1 "Hornet"</label>
     <description>This weapon was entirely designed to be able to penetrate Kevlar body more effectively. This MP7A1 features a red dot sight, 40 round mags and a suppressor.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_MPSevenAOne</texPath>
@@ -535,10 +535,10 @@
         <warmupTime>0.9</warmupTime>
         <range>23</range>
         <burstShotCount>4</burstShotCount>
-        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <soundCast>GN_Shot_MPSevenAOne</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
       </li>
     </verbs>
     <weaponTags>
@@ -574,7 +574,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
-      <speed>60</speed>
+      <speed>80</speed>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
@@ -600,18 +600,18 @@
     </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-      <WorkToMake>10000</WorkToMake>
-      <Mass>3.2</Mass>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.70</AccuracyShort>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
       <AccuracyMedium>0.80</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
       <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>45</Steel>
+      <Steel>55</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <recipeMaker>
       <recipeUsers>
@@ -619,7 +619,7 @@
       </recipeUsers>
       <researchPrerequisite>GN_Research</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
     <verbs>
@@ -627,7 +627,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>GN_Bullet_MOneA</defaultProjectile>
-        <warmupTime>1</warmupTime>
+        <warmupTime>1.2</warmupTime>
         <range>30.9</range>
         <soundCast>GN_Shot_MOneA</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -803,8 +803,8 @@
       <Mass>9.5</Mass>
       <AccuracyTouch>0.5</AccuracyTouch>
       <AccuracyShort>0.6</AccuracyShort>
-      <AccuracyMedium>0.5</AccuracyMedium>
-      <AccuracyLong>0.3</AccuracyLong>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
       <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
     </statBases>
     <equippedStatOffsets>
