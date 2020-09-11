@@ -4,7 +4,7 @@
         <defName>GN_Research</defName>
         <label>Attachments and modifications</label>
         <description>Modify the weapons you already know to make them more comfortable, light and precise.</description>
-        <baseCost>2500</baseCost>
+        <baseCost>1500</baseCost>
         <prerequisites>
             <li>PrecisionRifling</li>
         </prerequisites>

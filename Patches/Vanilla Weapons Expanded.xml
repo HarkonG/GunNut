@@ -7,6 +7,12 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="GN_Research"]/baseCost</xpath>
+                    <value>
+                        <baseCost>2500</baseCost>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="GN_Research"]/prerequisites</xpath>
 
                     <value>
