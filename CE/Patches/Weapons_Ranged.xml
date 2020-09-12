@@ -103,6 +103,11 @@
                         <SightsEfficiency>1.1</SightsEfficiency>
                         <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
                     </statBases>
+                    <costList>
+                        <Steel>45</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>True</hasStandardCommand>
@@ -135,7 +140,7 @@
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>GN_SAFiftyEight</defName>
                     <statBases>
-                        <WorkToMake>31000</WorkToMake>
+                        <WorkToMake>28000</WorkToMake>
                         <Mass>3.50</Mass>
                         <Bulk>8.8</Bulk>
                         <SwayFactor>1.30</SwayFactor>
@@ -143,6 +148,11 @@
                         <SightsEfficiency>2.0</SightsEfficiency>
                         <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
                     </statBases>
+                    <costList>
+                        <Steel>55</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>True</hasStandardCommand>
@@ -183,6 +193,11 @@
                         <Bulk>12.2</Bulk>
                         <WorkToMake>30000</WorkToMake>
                     </statBases>
+                    <costList>
+                        <Steel>60</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Chemfuel>15</Chemfuel>
+                    </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
@@ -218,6 +233,11 @@
                         <Bulk>8.90</Bulk>
                         <WorkToMake>30000</WorkToMake>
                     </statBases>
+                    <costList>
+                        <Steel>50</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
                     <Properties>
                         <recoilAmount>1.5</recoilAmount>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -256,8 +276,13 @@
                         <ShotSpread>0.10</ShotSpread>
                         <SwayFactor>0.9</SwayFactor>
                         <Bulk>4.0</Bulk>
-                        <WorkToMake>30000</WorkToMake>
+                        <WorkToMake>29000</WorkToMake>
                     </statBases>
+                    <costList>
+                        <Steel>40</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
                     <Properties>
                         <recoilAmount>1.40</recoilAmount>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -296,8 +321,13 @@
                         <ShotSpread>0.12</ShotSpread>
                         <SwayFactor>0.70</SwayFactor>
                         <Bulk>2.6</Bulk>
-                        <WorkToMake>20500</WorkToMake>
+                        <WorkToMake>24500</WorkToMake>
                     </statBases>
+                    <costList>
+                        <Steel>30</Steel>
+                        <Chemfuel>10</Chemfuel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                    </costList>
                     <Properties>
                         <recoilAmount>1.2</recoilAmount>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -340,6 +370,11 @@
                         <Bulk>9.5</Bulk>
                         <WorkToMake>30000</WorkToMake>
                     </statBases>
+                    <costList>
+                        <Steel>60</Steel>
+                        <ComponentIndustrial>4</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
                     <Properties>
                         <recoilAmount>2.0</recoilAmount>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -364,45 +399,6 @@
                     </weaponTags>
                 </li>
 
-                <!--===== Saiga 12K =====
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_SaigaTwelveK</defName>
-                    <statBases>
-                        <Mass>5.40</Mass>
-                        <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
-                        <SightsEfficiency>1.1</SightsEfficiency>
-                        <ShotSpread>0.10</ShotSpread>
-                        <SwayFactor>1.51</SwayFactor>
-                        <Bulk>10.0</Bulk>
-                        <WorkToMake>20500</WorkToMake>
-                    </statBases>
-                    <Properties>
-                        <recoilAmount>2.0</recoilAmount>
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <hasStandardCommand>true</hasStandardCommand>
-                        <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
-                        <warmupTime>0.6</warmupTime>
-                        <range>18</range>
-                        <burstShotCount>6</burstShotCount>
-                        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                        <soundCast>GN_Shot_SaigaTwelveK</soundCast>
-                        <soundCastTail>GunTail_Heavy</soundCastTail>
-                        <muzzleFlashScale>9</muzzleFlashScale>
-                    </Properties>
-                    <AmmoUser>
-                        <magazineSize>20</magazineSize>
-                        <reloadTime>4</reloadTime>
-                        <ammoSet>AmmoSet_12Gauge</ammoSet>
-                    </AmmoUser>
-                    <FireModes>
-                        <aimedBurstShotCount>2</aimedBurstShotCount>
-                        <aiUseBurstMode>FALSE</aiUseBurstMode>
-                    </FireModes>
-                    <weaponTags>
-                        <li>CE_AI_AssaultWeapon</li>
-                    </weaponTags>
-                </li>-->
-
                 <!--===== Saiga 12K =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>GN_SaigaTwelveK</defName>
@@ -412,8 +408,14 @@
                         <ShotSpread>0.15</ShotSpread>
                         <SwayFactor>1.26</SwayFactor>
                         <Bulk>7.0</Bulk>
-                        <SightsEfficiency>1.1</SightsEfficiency>                        
-                    </statBases>                    
+                        <SightsEfficiency>1.1</SightsEfficiency>
+                        <WorkToMake>22500</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>40</Steel>
+                        <ComponentIndustrial>3</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
@@ -433,7 +435,7 @@
                     <FireModes />
                     <weaponTags>
                         <li>CE_AI_AssaultWeapon</li>
-                    </weaponTags>            
+                    </weaponTags>
                 </li>
 
 
@@ -449,6 +451,11 @@
                         <Bulk>14.0</Bulk>
                         <WorkToMake>36000</WorkToMake>
                     </statBases>
+                    <costList>
+                        <Steel>80</Steel>
+                        <ComponentIndustrial>6</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
                     <Properties>
                         <recoilAmount>1.45</recoilAmount>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -493,6 +500,11 @@
                         <Bulk>1.50</Bulk>
                         <WorkToMake>7000</WorkToMake>
                     </statBases>
+                    <costList>
+                        <Steel>25</Steel>
+                        <ComponentIndustrial>3</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
