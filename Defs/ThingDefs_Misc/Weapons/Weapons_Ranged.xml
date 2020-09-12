@@ -44,7 +44,7 @@
       </skillRequirements>
     </recipeMaker>
     <statBases>      
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>45000</WorkToMake>
       <Mass>2.5</Mass>
       <AccuracyTouch>0.65</AccuracyTouch>
       <AccuracyShort>0.65</AccuracyShort>
@@ -53,7 +53,7 @@
       <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>65</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
@@ -138,7 +138,7 @@
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>45000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.60</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
@@ -147,7 +147,7 @@
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>65</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
@@ -233,7 +233,7 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
-      <WorkToMake>45000</WorkToMake>
+      <WorkToMake>50000</WorkToMake>
       <Mass>4</Mass>
       <AccuracyTouch>0.50</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
@@ -242,7 +242,7 @@
       <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>65</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
@@ -325,7 +325,7 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>45000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.70</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
@@ -334,7 +334,7 @@
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>65</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
@@ -419,7 +419,7 @@
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>45000</WorkToMake>
       <Mass>3</Mass>
       <AccuracyTouch>0.65</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -428,7 +428,7 @@
       <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>65</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
@@ -513,7 +513,7 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
-      <WorkToMake>24000</WorkToMake>
+      <WorkToMake>29000</WorkToMake>
       <Mass>2.5</Mass>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
@@ -522,7 +522,7 @@
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>75</Steel>
+      <Steel>80</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
@@ -599,7 +599,7 @@
     </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-      <WorkToMake>45000</WorkToMake>
+      <WorkToMake>50000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.70</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>
@@ -608,7 +608,7 @@
       <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>120</Steel>
+      <Steel>125</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
@@ -702,7 +702,7 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
-      <WorkToMake>31000</WorkToMake>
+      <WorkToMake>36000</WorkToMake>
       <Mass>4.5</Mass>
       <AccuracyTouch>0.67</AccuracyTouch>
       <AccuracyShort>0.74</AccuracyShort>
@@ -711,7 +711,7 @@
       <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>70</Steel>
+      <Steel>75</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
@@ -798,7 +798,7 @@
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>45000</WorkToMake>
       <Mass>9.5</Mass>
       <AccuracyTouch>0.5</AccuracyTouch>
       <AccuracyShort>0.6</AccuracyShort>
@@ -810,7 +810,7 @@
       <MoveSpeed>-0.20</MoveSpeed>
     </equippedStatOffsets>
     <costList>
-      <Steel>75</Steel>
+      <Steel>80</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
@@ -896,7 +896,7 @@
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>5000</WorkToMake>
+      <WorkToMake>7000</WorkToMake>
       <Mass>1.0</Mass>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -905,7 +905,7 @@
       <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>30</Steel>
+      <Steel>35</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
