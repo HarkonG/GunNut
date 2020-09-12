@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-
   <!--===== AK-103 =====-->
   <!--===== (Service Rifle) Better, same dmg =====-->
   <ThingDef ParentName="BaseBullet">
@@ -44,7 +43,7 @@
         <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <statBases>
+    <statBases>      
       <WorkToMake>40000</WorkToMake>
       <Mass>2.5</Mass>
       <AccuracyTouch>0.65</AccuracyTouch>
@@ -54,9 +53,9 @@
       <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>45</Steel>
+      <Steel>60</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -148,9 +147,9 @@
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>45</Steel>
+      <Steel>60</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -243,9 +242,9 @@
       <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>50</Steel>
+      <Steel>60</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -335,9 +334,9 @@
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>45</Steel>
+      <Steel>60</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -429,9 +428,9 @@
       <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>45</Steel>
+      <Steel>60</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -523,7 +522,7 @@
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>35</Steel>
+      <Steel>75</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
@@ -600,7 +599,7 @@
     </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>45000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.70</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>
@@ -609,9 +608,9 @@
       <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>55</Steel>
+      <Steel>120</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <recipeMaker>
       <recipeUsers>
@@ -712,7 +711,7 @@
       <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>45</Steel>
+      <Steel>70</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
@@ -799,7 +798,7 @@
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>35000</WorkToMake>
+      <WorkToMake>40000</WorkToMake>
       <Mass>9.5</Mass>
       <AccuracyTouch>0.5</AccuracyTouch>
       <AccuracyShort>0.6</AccuracyShort>
@@ -811,7 +810,7 @@
       <MoveSpeed>-0.20</MoveSpeed>
     </equippedStatOffsets>
     <costList>
-      <Steel>60</Steel>
+      <Steel>75</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
@@ -855,7 +854,7 @@
   </ThingDef>
 
   <!--===== Glock 17 =====-->
-  <!--===== Less damage, beter and faster =====-->  
+  <!--===== Less damage, beter and faster =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>GN_Bullet_GlockSeventeen</defName>
     <label>Glock 17 bullet</label>
@@ -865,7 +864,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>9</damageAmountBase>    
+      <damageAmountBase>9</damageAmountBase>
       <speed>55</speed>
     </projectile>
   </ThingDef>
@@ -904,9 +903,9 @@
       <AccuracyMedium>0.50</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
-    </statBases>   
+    </statBases>
     <costList>
-      <Steel>20</Steel>
+      <Steel>30</Steel>
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
@@ -916,14 +915,14 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>GN_Bullet_GlockSeventeen</defaultProjectile>
         <warmupTime>0.3</warmupTime>
-        <range>25.9</range>        
+        <range>25.9</range>
         <soundCast>GN_Shot_GlockSeventeen</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>7</muzzleFlashScale>
       </li>
     </verbs>
     <weaponTags>
-      <li>IndustrialGunAdvanced</li>      
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <tools>
       <li>
@@ -944,6 +943,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>  
+  </ThingDef>
 
 </Defs>
