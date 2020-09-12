@@ -2,6 +2,13 @@
 
 ## Changelog
 
+### 1.2.4(12/09/20)
+- Moved the position and reduced the cost of the research when VWE is not present in vanilla.
+- Balanced the AK-105 to be more in line with the AKSU when using CE.
+- Increased the crafting cost of all guns in vanilla to be more in line with other guns.
+- Balanced the crafting cost of most guns in CE to account for the ammo cost/ work speed penalties.
+- Removed some weapon tags so now only high tier pawns will spawn with Gun Nut weapons in vanilla.
+
 ### 1.2.3(01/09/20)
 Values for fire rate are time between shots so less time equals better fire rate.
 
