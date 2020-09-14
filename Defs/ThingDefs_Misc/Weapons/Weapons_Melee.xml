@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <!-- ===== Ice pick "Red Rebel" ===== -->
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>GN_RedRebel</defName>
+        <label>Ice pick "Red Rebel"</label>
+        <description>Perfectly balanced ice pick, the tip is made of a single piece of hardened metal. Good for exploring ancient tombs or descending cliffs with a bag full of goodies.</description>
+        <graphicData>
+            <texPath>Things/Weapons/GN_RedRebel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.7</drawSize>
+        </graphicData>
+        <comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"></li>
+        </comps>
+        <techLevel>Industrial</techLevel>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <Mass>1.0</Mass>
+        </statBases>
+        <equippedStatOffsets>
+            <MiningSpeed>0.20</MiningSpeed>
+        </equippedStatOffsets>
+        <equippedAngleOffset>-45</equippedAngleOffset>
+        <costList>
+            <Steel>55</Steel>
+            <Chemfuel>10</Chemfuel>
+            <Plasteel>5</Plasteel>
+        </costList>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>12</power>
+                <armorPenetration>0.45</armorPenetration>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+        </tools>
+        <recipeMaker>
+            <recipeUsers>
+                <li>FueledSmithy</li>
+                <li>ElectricSmithy</li>
+            </recipeUsers>
+            <researchPrerequisite>Smithing</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+    </ThingDef>
+
+</Defs>
