@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### 1.2.5(14/09/20)
+- I remade all textures while learning Adobe Illustrator. Some are changed, but for the most part should feel the same. The sprites now look perfect on crafting menus, research menus etc.
+- (!NEW) One las addition to the mod the Red Rebel ice pick.
+
 ### 1.2.4(12/09/20)
 - Moved the position and reduced the cost of the research when VWE is not present in vanilla.
 - Balanced the AK-105 to be more in line with the AKSU when using CE.
