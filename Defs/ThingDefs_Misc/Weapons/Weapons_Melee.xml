@@ -9,12 +9,8 @@
         <description>Perfectly balanced ice pick, the tip is made of a single piece of hardened metal. Good for exploring ancient tombs or descending cliffs with a bag full of goodies.</description>
         <graphicData>
             <texPath>Things/Weapons/GN_RedRebel</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.7</drawSize>
-        </graphicData>
-        <comps>
-            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"></li>
-        </comps>
+            <graphicClass>Graphic_Single</graphicClass>           
+        </graphicData>        
         <techLevel>Industrial</techLevel>
         <statBases>
             <WorkToMake>8000</WorkToMake>

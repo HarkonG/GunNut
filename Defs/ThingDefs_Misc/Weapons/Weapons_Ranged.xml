@@ -28,6 +28,9 @@
     </graphicData>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <!-- X / Z / Y -->
+        <eastOffset>(0.10,0,-0.05)</eastOffset>
+        <westOffset>(-0.10,0,-0.05)</westOffset>
       </li>
     </comps>
     <thingCategories>
@@ -43,7 +46,7 @@
         <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <statBases>      
+    <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>2.5</Mass>
       <AccuracyTouch>0.65</AccuracyTouch>
@@ -71,7 +74,7 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>      
+    <weaponTags>
       <li>IndustrialMilitaryBasic</li>
       <li>IndustrialMilitaryAdvanced</li>
     </weaponTags>
@@ -121,8 +124,11 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
-    <comps>
+   <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <!-- X / Z / Y -->
+        <eastOffset>(0.15,0,0)</eastOffset>
+        <westOffset>(-0.15,0,0)</westOffset>
       </li>
     </comps>
     <thingCategories>
@@ -217,8 +223,11 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
-    <comps>
+   <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <!-- X / Z / Y -->
+        <eastOffset>(0.15,0,0)</eastOffset>
+        <westOffset>(-0.15,0,0)</westOffset>
       </li>
     </comps>
     <thingCategories>
@@ -597,6 +606,9 @@
     </graphicData>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <!-- X / Z / Y -->
+        <eastOffset>(0.15,0,0)</eastOffset>
+        <westOffset>(-0.15,0,0)</westOffset>
       </li>
     </comps>
     <thingCategories>
@@ -690,8 +702,11 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
-    <comps>
+   <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <!-- X / Z / Y -->
+        <eastOffset>(0.13,0,0)</eastOffset>
+        <westOffset>(-0.13,0,0)</westOffset>
       </li>
     </comps>
     <thingCategories>
@@ -787,8 +802,11 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
     </graphicData>
-    <comps>
+   <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <!-- X / Z / Y -->
+        <eastOffset>(0.15,0,-0.05)</eastOffset>
+        <westOffset>(-0.15,0,-0.05)</westOffset>
       </li>
     </comps>
     <thingCategories>
@@ -883,13 +901,8 @@
     <description>In the present day, more than 40 countries use Glock pistols on their police corps. This Glock 17 is modified with Zev Tech attachments as well as a Trijicon RMR Reflex Sight.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GlockSeventeen</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
-    </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-      </li>
-    </comps>
+      <graphicClass>Graphic_Single</graphicClass>      
+    </graphicData>   
     <thingCategories>
       <li>GunNut</li>
     </thingCategories>
