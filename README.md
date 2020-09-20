@@ -1,6 +1,4 @@
-# GunNut
-
-## Changelog
+# Changelog
 
 ### 1.2.6(20/09/20)
 - Improved some things in most of the textures, cannons, scopes and drum mags should look better now.
