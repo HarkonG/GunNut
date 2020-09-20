@@ -2,6 +2,12 @@
 
 ## Changelog
 
+### 1.2.6(20/09/20)
+- Improved some things in most of the textures, cannons, scopes and drum mags should look better now.
+- Fixed the R700's soundFX now is suppressed and you can hear the bolt after each shot.
+- Fixed the position of all the guns so they look better when the pawns are shooting them.
+- Changed the package ID and some other small things in preparation for the release of a second mod. 
+
 ### 1.2.5(14/09/20)
 - I remade all textures while learning Adobe Illustrator. Some are changed, but for the most part should feel the same. The sprites now look perfect on crafting menus, research menus etc.
 - (!NEW) One las addition to the mod the Red Rebel ice pick.
