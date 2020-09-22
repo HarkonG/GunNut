@@ -33,7 +33,7 @@
         <westOffset>(-0.10,0,-0.05)</westOffset>
       </li>
     </comps>
-    <thingCategories>
+    <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -131,7 +131,7 @@
         <westOffset>(-0.15,0,0)</westOffset>
       </li>
     </comps>
-    <thingCategories>
+    <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -230,7 +230,7 @@
         <westOffset>(-0.15,0,0)</westOffset>
       </li>
     </comps>
-    <thingCategories>
+    <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -322,7 +322,7 @@
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
     </comps>
-    <thingCategories>
+    <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -417,7 +417,7 @@
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
     </comps>
-    <thingCategories>
+    <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -512,7 +512,7 @@
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
     </comps>
-    <thingCategories>
+    <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
     <soundInteract>Interact_SMG</soundInteract>
@@ -611,7 +611,7 @@
         <westOffset>(-0.15,0,0)</westOffset>
       </li>
     </comps>
-    <thingCategories>
+    <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -709,7 +709,7 @@
         <westOffset>(-0.13,0,0)</westOffset>
       </li>
     </comps>
-    <thingCategories>
+    <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
     <soundInteract>Interact_Shotgun</soundInteract>
@@ -809,7 +809,7 @@
         <westOffset>(-0.15,0,-0.05)</westOffset>
       </li>
     </comps>
-    <thingCategories>
+    <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -903,7 +903,7 @@
       <texPath>Things/Weapons/GN_GlockSeventeen</texPath>
       <graphicClass>Graphic_Single</graphicClass>      
     </graphicData>   
-    <thingCategories>
+    <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
     <soundInteract>Interact_Autopistol</soundInteract>
