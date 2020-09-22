@@ -5,7 +5,7 @@
     <!-- ===== Ice pick "Red Rebel" ===== -->
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
         <defName>GN_RedRebel</defName>
-        <label>Ice pick "Red Rebel"</label>
+        <label>Ice pick</label>
         <description>Perfectly balanced ice pick, the tip is made of a single piece of hardened metal. Good for exploring ancient tombs or descending cliffs with a bag full of goodies.</description>
         <graphicData>
             <texPath>Things/Weapons/GN_RedRebel</texPath>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+<settings_GN_EnableHeader>Weapons</settings_GN_EnableHeader>
+<settings_GN_EnableDescription>- Disabling weapons on an existing save won't delete the ones you already have but you won't be able to find them or craft them anymore.</settings_GN_EnableDescription>
+
+<enable_GN_AK103>Enable AK-103 "Magpul"</enable_GN_AK103>
+<enable_GN_AK105>Enable AK-105 "Aggressor"</enable_GN_AK105>
+<enable_GN_BullpupPKP>Enable Bullpup PKP "Hotpipe"</enable_GN_BullpupPKP>
+<enable_GN_Glock17>Enable Glock 17</enable_GN_Glock17>
+<enable_GN_M1A>Enable M1A "Archangel"</enable_GN_M1A>
+<enable_GN_M4A1>Enable M4A1 "Gun Nut"</enable_GN_M4A1>
+<enable_GN_MP7A1>Enable MP7A1 "Hornet"</enable_GN_MP7A1>
+<enable_GN_R700>Enable R700 "Hawk"</enable_GN_R700>
+<enable_GN_SA58>Enable SA-58 "Juice Cannon"</enable_GN_SA58>
+<enable_GN_Saiga12K>Enable Saiga12K "Sweeper"</enable_GN_Saiga12K>
+<enable_GN_RedRebel>Enable Ice pick "Red Rebel"</enable_GN_RedRebel>
+
+<settings_GN_EnableNickNameHeader>Nicknames</settings_GN_EnableNickNameHeader>
+<settings_GN_EnableNickNameDescription>- This setting removes or shows the nicknames from weapons names. Enabled: AK-103 "Magpul" Disabled: AK-103.</settings_GN_EnableNickNameDescription>
+
+<enable_GN_nicknames>Enable weapon nicknames</enable_GN_nicknames>
+
+<Label_GN_AKOneOFive_NN>AK-105 "Aggressor"</Label_GN_AKOneOFive_NN>
+<Label_GN_AKOneOThree_NN>AK-103 "Magpul"</Label_GN_AKOneOThree_NN>
+<Label_GN_BullpupPKP_NN>Bullpup PKP "Hotpipe"</Label_GN_BullpupPKP_NN>
+<Label_GN_GlockSeventeen_NN>Glock 17 "Zev Tech"</Label_GN_GlockSeventeen_NN> 
+<Label_GN_MFourAOne_NN>M4A1 "Gun Nut"</Label_GN_MFourAOne_NN>
+<Label_GN_MOneA_NN>M1A "Archangel"</Label_GN_MOneA_NN>
+<Label_GN_MPSevenAOne_NN>MP7A1 "Hornet"</Label_GN_MPSevenAOne_NN>
+<Label_GN_RedRebel_NN>Ice pick "Red Rebel"</Label_GN_RedRebel_NN>
+<Label_GN_RSevenHundred_NN>R700 "Hawk"</Label_GN_RSevenHundred_NN>
+<Label_GN_SAFiftyEight_NN>SA-58 "Juice Cannon"</Label_GN_SAFiftyEight_NN>
+<Label_GN_SaigaTwelveK_NN>Saiga12K "Sweeper"</Label_GN_SaigaTwelveK_NN>
+
+<settings_GN_EndDescription>- Remember that you need to restart for this settings to take place.</settings_GN_EndDescription>
+
+</LanguageData>
