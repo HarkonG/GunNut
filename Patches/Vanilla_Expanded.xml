@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Weapons Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="GN_Research"]/baseCost</xpath>
+                    <value>
+                        <baseCost>2500</baseCost>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="GN_Research"]/prerequisites</xpath>
+
+                    <value>
+                        <prerequisites>
+                            <li>VWE_SpecializedFirearms</li>
+                            <li>VWE_DesignatedMarksmanRifle</li>
+                            <li>VWE_HeavyWeapons</li>
+                        </prerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Expanded Framework</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="GN_MPSevenAOne"] </xpath>
+                    <value>
+                        <modExtensions>
+                            <li Class="VFECore.ThingDefExtension">
+                                <usableWithShields>true</usableWithShields>
+                            </li>
+                        </modExtensions>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="GN_GlockSeventeen"] </xpath>
+                    <value>
+                        <modExtensions>
+                            <li Class="VFECore.ThingDefExtension">
+                                <usableWithShields>true</usableWithShields>
+                            </li>
+                        </modExtensions>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
