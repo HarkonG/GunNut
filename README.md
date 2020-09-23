@@ -4,7 +4,7 @@
 DISCLAIMER: This update will throw a small error on existing saves, is harmless and should be gone the next time you save/load.
 
 - Fixed some Gun Nut weapons spawning on "low tech" factions like vanilla expanded settlers.
-- Added the "usable with shield" functionality to the Glock 17 and the MP7A1 so now they can be used with any vanilla expanded shield when CE is not present.
+- Added the "usable with shield" functionality to the Glock 17, the MP7A1 and the Red Rebel ice pick so now they can be used with any vanilla expanded shield when CE is not present.
 - (NEW!) Mod Settings: you can disable guns individually and remove the nicknames if you don't have any duplicates or prefer to do so.   
 
 ### 1.2.6(20/09/20)
