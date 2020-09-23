@@ -54,6 +54,17 @@
                         </modExtensions>
                     </value>
                 </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="GN_RedRebel"] </xpath>
+                    <value>
+                        <modExtensions>
+                            <li Class="VFECore.ThingDefExtension">
+                                <usableWithShields>true</usableWithShields>
+                            </li>
+                        </modExtensions>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>
