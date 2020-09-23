@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
+
+  <ThingDef Name="GN2_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+    <thingCategories Inherit = "False">
+      <li>GunNut</li>
+    </thingCategories>
+    <weaponTags Inherit = "False">      
+      <li>IndustrialGunAdvanced</li>      
+    </weaponTags>
+    <comps>
+      <li Class="CompProperties_BiocodableWeapon"/>
+    </comps>
+    <thingSetMakerTags Inherit = "False">
+      <li>RewardStandardMidFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
   <!--===== AK-103 =====-->
   <!--===== (Service Rifle) Better, same dmg =====-->
   <ThingDef ParentName="BaseBullet">
@@ -17,7 +34,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_AKOneOThree</defName>
     <label>AK-103</label>
     <description>The modern version of the famous AK-47. This custom AK-103 features some Magpul attachments and a holographic sight.</description>
@@ -33,9 +50,6 @@
         <westOffset>(-0.10,0,-0.05)</westOffset>
       </li>
     </comps>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -74,10 +88,6 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -115,7 +125,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_SAFiftyEight</defName>
     <label>SA-58</label>
     <description>Improved version of the FAL. This custom SA-58 comes with a drum mag and 1-6x scope as well as some attachments to improve recoil control and ergonomics.</description>
@@ -124,16 +134,13 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
-   <comps>
+    <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
         <!-- X / Z / Y -->
         <eastOffset>(0.15,0,0)</eastOffset>
         <westOffset>(-0.15,0,0)</westOffset>
       </li>
     </comps>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -172,10 +179,6 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -214,7 +217,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_RSevenHundred</defName>
     <label>R700</label>
     <description>Heavily modified version of the Remington 700 chambered in .300 W Mag featuring a long range scope and a big a** suppressor.</description>
@@ -223,16 +226,13 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
-   <comps>
+    <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
         <!-- X / Z / Y -->
         <eastOffset>(0.15,0,0)</eastOffset>
         <westOffset>(-0.15,0,0)</westOffset>
       </li>
     </comps>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <researchPrerequisite>GN_Research</researchPrerequisite>
@@ -240,9 +240,6 @@
         <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <Mass>4</Mass>
@@ -309,7 +306,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_MFourAOne</defName>
     <label>M4A1</label>
     <description>Heavily modified version of the classic M4A1 featuring an improved foregrip, 60 round mag, a holographic sight and a suppressor so you can shoot at night and never wake up your fellow colonists.</description>
@@ -322,9 +319,6 @@
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
     </comps>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <researchPrerequisite>GN_Research</researchPrerequisite>
@@ -332,9 +326,6 @@
         <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>3.5</Mass>
@@ -363,10 +354,6 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -404,7 +391,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_AKOneOFive</defName>
     <label>AK-105</label>
     <description>The smaller sister of the AK-74M, this AK-105 features some ZenitCo attachments as well as an OKP sight.</description>
@@ -417,9 +404,6 @@
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
     </comps>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -458,10 +442,6 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -499,7 +479,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_MPSevenAOne</defName>
     <label>MP7A1</label>
     <description>This weapon was entirely designed to be able to penetrate Kevlar body more effectively. This MP7A1 features a red dot sight, 40 round mags and a suppressor.</description>
@@ -522,9 +502,6 @@
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
     <statBases>
       <WorkToMake>29000</WorkToMake>
       <Mass>2.5</Mass>
@@ -553,10 +530,6 @@
         <muzzleFlashScale>6</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>grip</label>
@@ -595,7 +568,7 @@
     </graphicData>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_MOneA</defName>
     <label>M1A</label>
     <description>The descendant of the classic M1 Garand. This M1A comes with a 30 round mag, a HAMR scope and a slick looking Archangel stock.</description>
@@ -611,9 +584,6 @@
         <westOffset>(-0.15,0,0)</westOffset>
       </li>
     </comps>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>50000</WorkToMake>
@@ -650,10 +620,6 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -693,7 +659,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_SaigaTwelveK</defName>
     <label>Saiga 12K</label>
     <description>One day Mikhail Kalashnikov woke up and thought what if I make an AK that can shoot shotgun shells. This Saiga12K features a red dot sight, a drum mag and a comfortable foregrip.</description>
@@ -702,16 +668,13 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
-   <comps>
+    <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
         <!-- X / Z / Y -->
         <eastOffset>(0.13,0,0)</eastOffset>
         <westOffset>(-0.13,0,0)</westOffset>
       </li>
     </comps>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
       <researchPrerequisite>GN_Research</researchPrerequisite>
@@ -719,9 +682,6 @@
         <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
     <statBases>
       <WorkToMake>36000</WorkToMake>
       <Mass>4.5</Mass>
@@ -750,10 +710,6 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -793,7 +749,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_BullpupPKP</defName>
     <label>Bullpup PKP</label>
     <description>Bullpup version of the "Pecheneg" or PKP, the smaller size of this desing allows for a better performance during urban combat without losing firepower.</description>
@@ -802,16 +758,13 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
     </graphicData>
-   <comps>
+    <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
         <!-- X / Z / Y -->
         <eastOffset>(0.15,0,-0.05)</eastOffset>
         <westOffset>(-0.15,0,-0.05)</westOffset>
       </li>
     </comps>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -854,8 +807,6 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
       <li>GunHeavy</li>
     </weaponTags>
     <tools>
@@ -895,17 +846,14 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_GlockSeventeen</defName>
     <label>Glock 17</label>
     <description>In the present day, more than 40 countries use Glock pistols on their police corps. This Glock 17 is modified with Zev Tech attachments as well as a Trijicon RMR Reflex Sight.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GlockSeventeen</texPath>
-      <graphicClass>Graphic_Single</graphicClass>      
-    </graphicData>   
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -942,10 +890,6 @@
         <muzzleFlashScale>7</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
