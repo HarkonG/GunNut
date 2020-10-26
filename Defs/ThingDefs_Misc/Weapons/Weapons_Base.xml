@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <ThingDef Name="GN_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+        <thingCategories Inherit = "False">
+            <li>GunNut</li>
+        </thingCategories>
+        <weaponTags Inherit = "False">
+            <li>IndustrialGunAdvanced</li>
+        </weaponTags>
+        <comps>
+            <li Class="CompProperties_BiocodableWeapon"/>
+        </comps>
+        <thingSetMakerTags Inherit = "False">
+            <li>RewardStandardMidFreq</li>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+    </ThingDef>
+</Defs>
+
+<!--<ThingDef ParentName="BaseBullet">
+    <defName></defName>
+    <label></label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase></damageAmountBase>
+      <speed></speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+    <defName></defName>
+    <label></label>
+    <description>_</description>
+    <graphicData>
+      <texPath>Things/Weapons/</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">       
+      </li>
+    </comps>    
+    <soundInteract></soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting></Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake></WorkToMake>
+      <Mass></Mass>
+      <AccuracyTouch></AccuracyTouch>
+      <AccuracyShort></AccuracyShort>
+      <AccuracyMedium></AccuracyMedium>
+      <AccuracyLong></AccuracyLong>
+      <RangedWeapon_Cooldown></RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel></Steel>
+      <Chemfuel></Chemfuel>
+      <ComponentIndustrial></ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile></defaultProjectile>
+        <warmupTime></warmupTime>
+        <range></range>
+        <burstShotCount></burstShotCount>
+        <ticksBetweenBurstShots></ticksBetweenBurstShots>
+        <soundCast></soundCast>
+        <soundCastTail></soundCastTail>
+        <muzzleFlashScale></muzzleFlashScale>
+      </li>
+    </verbs>   
+    <tools>
+         
+    </tools>
+  </ThingDef> -->
