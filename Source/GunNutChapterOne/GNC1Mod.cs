@@ -3,20 +3,20 @@ using Verse;
 
 namespace GunNutChapterOne
 {
-	internal class GunNutChapterOneMod : Mod
+	internal class GNC1Mod : Mod
 	{
 		/// <summary>
 		/// A reference to our settings.
 		/// </summary>
-		public static GunNutChapterOneSettings settings;
+		public static GNC1Settings settings;
 
 		/// <summary>
 		/// A mandatory constructor which resolves the reference to our settings.
 		/// </summary>
 		/// /// <param name="content"></param>
-		public GunNutChapterOneMod(ModContentPack content) : base(content)
+		public GNC1Mod(ModContentPack content) : base(content)
 		{
-			GunNutChapterOneMod.settings = base.GetSettings<GunNutChapterOneSettings>();
+			GNC1Mod.settings = base.GetSettings<GNC1Settings>();
 		}
 
 		/// <summary>
@@ -26,7 +26,7 @@ namespace GunNutChapterOne
 		public override void DoSettingsWindowContents(Rect settingsCanvas)
 		{
 			base.DoSettingsWindowContents(settingsCanvas);
-			GunNutChapterOneMod.settings.DoSettingsWindowContents(settingsCanvas);
+			GNC1Mod.settings.DoSettingsWindowContents(settingsCanvas);
 		}
 
 		/// <summary>
@@ -42,8 +42,8 @@ namespace GunNutChapterOne
 		public override void WriteSettings()
 		{
 			base.WriteSettings();
-			GunNutDefsDisabler.DefDisablerList();
-			GunNutNickNames.EnableNickNames();
+			GNC1DefDisabler.DefDisablerList();
+			GNC1NickNames.EnableNickNames();
 		}
 	}
 }

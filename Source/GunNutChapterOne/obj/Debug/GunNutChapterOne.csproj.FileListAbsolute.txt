@@ -1,0 +1,4 @@
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\GunNut-Chapter-1\Assemblies\GunNutChapterOne.dll
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\GunNut-Chapter-1\Source\GunNutChapterOne\obj\Debug\GunNutChapterOne.csprojAssemblyReference.cache
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\GunNut-Chapter-1\Source\GunNutChapterOne\obj\Debug\GunNutChapterOne.csproj.CoreCompileInputs.cache
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\GunNut-Chapter-1\Source\GunNutChapterOne\obj\Debug\GunNutChapterOne.dll

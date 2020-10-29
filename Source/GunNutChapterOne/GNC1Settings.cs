@@ -3,7 +3,7 @@ using Verse;
 
 namespace GunNutChapterOne
 {
-	internal class GunNutChapterOneSettings : ModSettings
+	internal class GNC1Settings : ModSettings
 	{
 		/// <summary>
 		/// The settings our mod has.
