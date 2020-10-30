@@ -470,7 +470,7 @@
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <targetParams>
                             <canTargetLocations>true</canTargetLocations>
-                        </targetParams>                        
+                        </targetParams>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>100</magazineSize>
