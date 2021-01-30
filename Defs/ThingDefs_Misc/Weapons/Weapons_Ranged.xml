@@ -278,7 +278,7 @@
   <!--===== (Assault Rifle) Same dmg, less range, more precise =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>GN_Bullet_MFourAOne</defName>
-    <label>M4A1 Bullet</label>
+    <label>CQC M4A1 Bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -292,7 +292,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_MFourAOne</defName>
-    <label>M4A1</label>
+    <label>CQC M4A1</label>
     <description>Heavily modified version of the classic M4A1 featuring an improved foregrip, 60 round mag, a holographic sight and a suppressor so you can shoot at night and never wake up your fellow colonists.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_MFourAOne</texPath>
@@ -645,7 +645,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_SaigaTwelveK</defName>
-    <label>Saiga 12K</label>
+    <label>Custom Saiga 12K</label>
     <description>One day Mikhail Kalashnikov woke up and thought what if I make an AK that can shoot shotgun shells. This Saiga12K features a red dot sight, a drum mag and a comfortable foregrip.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_SaigaTwelveK</texPath>
