@@ -26,46 +26,5 @@
             </operations>
         </match>
     </Operation>
-
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Vanilla Expanded Framework</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName="GN_MPSevenAOne"] </xpath>
-                    <value>
-                        <modExtensions>
-                            <li Class="VFECore.ThingDefExtension">
-                                <usableWithShields>true</usableWithShields>
-                            </li>
-                        </modExtensions>
-                    </value>
-                </li>
-
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName="GN_GlockSeventeen"] </xpath>
-                    <value>
-                        <modExtensions>
-                            <li Class="VFECore.ThingDefExtension">
-                                <usableWithShields>true</usableWithShields>
-                            </li>
-                        </modExtensions>
-                    </value>
-                </li>
-
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs/ThingDef[defName="GN_RedRebel"] </xpath>
-                    <value>
-                        <modExtensions>
-                            <li Class="VFECore.ThingDefExtension">
-                                <usableWithShields>true</usableWithShields>
-                            </li>
-                        </modExtensions>
-                    </value>
-                </li>
-            </operations>
-        </match>
-    </Operation>
+    
 </Patch>
