@@ -4,8 +4,8 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>[XND] Proper Shotguns</li>
             <li>Proper Shotguns (Unofficial Patch)</li>
+            <li>[XND] Proper Shotguns (Continued)</li>
         </mods>
         <match Class="PatchOperationSequence">
             <success>Always</success>

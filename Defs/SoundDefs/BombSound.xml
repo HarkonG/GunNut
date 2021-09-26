@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<SoundDef>
-        <defName>GN_SFX_Bomb</defName>
+    <SoundDef>
+        <defName>HRK_SFX_Bomb</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -9,7 +9,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>GN_SFX_Bomb</clipFolderPath>
+                        <clipFolderPath>HRK_SFX_Bomb</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>

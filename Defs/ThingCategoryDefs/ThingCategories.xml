@@ -2,7 +2,7 @@
 
 <Defs>
     <ThingCategoryDef>
-        <defName>GunNut</defName>
+        <defName>HRK_Category_GunNut</defName>
         <label>Gun Nut</label>
         <parent>WeaponsRanged</parent>
     </ThingCategoryDef>

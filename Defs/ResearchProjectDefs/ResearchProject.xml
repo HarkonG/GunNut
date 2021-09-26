@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <ResearchProjectDef>
-        <defName>GN_Research</defName>
+        <defName>HRK_Research_GunNut</defName>
         <label>Attachments and modifications</label>
         <description>Modify the weapons you already know to make them more comfortable, light and precise.</description>
-        <baseCost>1500</baseCost>
+        <baseCost>2200</baseCost>
         <prerequisites>
             <li>PrecisionRifling</li>
         </prerequisites>

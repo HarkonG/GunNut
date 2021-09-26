@@ -3,7 +3,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>/Defs/DamageDef[defName="Bomb"]/soundExplosion</xpath>
         <value>
-            <soundExplosion>GN_SFX_Bomb</soundExplosion>
+            <soundExplosion>HRK_SFX_Bomb</soundExplosion>
         </value>
     </Operation>
 </Patch>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-
     <Operation Class="PatchOperationFindMod">
         <mods>
             <li>Combat Extended</li>
@@ -12,8 +11,8 @@
                 <li Class="PatchOperationReplace">
                     <xpath>
 				    /Defs/ThingDef[
-                    defName = "GN_MPSevenAOne" or
-                    defName = "GN_GlockSeventeen"]/tools
+                    defName = "HRK_MPSevenAOne" or
+                    defName = "HRK_GlockSeventeen"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -45,14 +44,14 @@
                 <li Class="PatchOperationReplace">
                     <xpath>
 				    /Defs/ThingDef[
-					defName = "GN_AKOneOFive" or
-					defName = "GN_AKOneOThree" or
-					defName = "GN_MFourAOne" or
-					defName = "GN_RSevenHundred" or
-                    defName = "GN_MOneA" or
-                    defName = "GN_BullpupPKP" or		
-                    defName = "GN_SaigaTwelveK" or						
-					defName = "GN_SAFiftyEight"]/tools
+					defName = "HRK_AKOneOFive" or
+					defName = "HRK_AKOneOThree" or
+					defName = "HRK_MFourAOne" or
+					defName = "HRK_RSevenHundred" or
+                    defName = "HRK_MOneA" or
+                    defName = "HRK_BullpupPKP" or		
+                    defName = "HRK_SaigaTwelveK" or						
+					defName = "HRK_SAFiftyEight"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -93,7 +92,7 @@
 
                 <!--===== AK-103 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_AKOneOThree</defName>
+                    <defName>HRK_AKOneOThree</defName>
                     <statBases>
                         <WorkToMake>29000</WorkToMake>
                         <Mass>2.90</Mass>
@@ -116,7 +115,7 @@
                         <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
                         <warmupTime>1.1</warmupTime>
                         <range>50</range>
-                        <soundCast>GN_Shot_AKOneOThree</soundCast>
+                        <soundCast>HRK_Shot_AKOneOThree</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.20</recoilAmount>
@@ -138,7 +137,7 @@
 
                 <!--===== SA-58 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_SAFiftyEight</defName>
+                    <defName>HRK_SAFiftyEight</defName>
                     <statBases>
                         <WorkToMake>30000</WorkToMake>
                         <Mass>3.50</Mass>
@@ -161,7 +160,7 @@
                         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                         <warmupTime>1.0</warmupTime>
                         <range>55</range>
-                        <soundCast>GN_Shot_SAFiftyEight</soundCast>
+                        <soundCast>HRK_Shot_SAFiftyEight</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>2.0</recoilAmount>
@@ -183,7 +182,7 @@
 
                 <!--===== R700 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_RSevenHundred</defName>
+                    <defName>HRK_RSevenHundred</defName>
                     <statBases>
                         <Mass>7.30</Mass>
                         <RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
@@ -204,7 +203,7 @@
                         <defaultProjectile>Bullet_300WinchesterMagnum_FMJ</defaultProjectile>
                         <warmupTime>2.0</warmupTime>
                         <range>86</range>
-                        <soundCast>GN_Shot_RSevenHundred</soundCast>
+                        <soundCast>HRK_Shot_RSevenHundred</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>
@@ -223,7 +222,7 @@
 
                 <!--===== M4A1 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_MFourAOne</defName>
+                    <defName>HRK_MFourAOne</defName>
                     <statBases>
                         <Mass>3.0</Mass>
                         <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
@@ -247,7 +246,7 @@
                         <range>47</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-                        <soundCast>GN_Shot_MFourAOne</soundCast>
+                        <soundCast>HRK_Shot_MFourAOne</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>
@@ -268,7 +267,7 @@
 
                 <!--===== AK-105 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_AKOneOFive</defName>
+                    <defName>HRK_AKOneOFive</defName>
                     <statBases>
                         <Mass>2.2</Mass>
                         <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
@@ -292,7 +291,7 @@
                         <range>45</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                        <soundCast>GN_Shot_AKOneOFive</soundCast>
+                        <soundCast>HRK_Shot_AKOneOFive</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>
@@ -313,7 +312,7 @@
 
                 <!--===== MP7A1 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_MPSevenAOne</defName>
+                    <defName>HRK_MPSevenAOne</defName>
                     <statBases>
                         <Mass>1.2</Mass>
                         <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
@@ -337,7 +336,7 @@
                         <range>20</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                        <soundCast>GN_Shot_MPSevenAOne</soundCast>
+                        <soundCast>HRK_Shot_MPSevenAOne</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>
@@ -360,7 +359,7 @@
 
                 <!--===== M1A =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_MOneA</defName>
+                    <defName>HRK_MOneA</defName>
                     <statBases>
                         <Mass>3.85</Mass>
                         <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
@@ -382,7 +381,7 @@
                         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
                         <warmupTime>1.1</warmupTime>
                         <range>58</range>
-                        <soundCast>GN_Shot_MOneA</soundCast>
+                        <soundCast>HRK_Shot_MOneA</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>
@@ -401,7 +400,7 @@
 
                 <!--===== Saiga 12K =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_SaigaTwelveK</defName>
+                    <defName>HRK_SaigaTwelveK</defName>
                     <statBases>
                         <Mass>4.0</Mass>
                         <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
@@ -422,7 +421,7 @@
                         <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
                         <warmupTime>0.5</warmupTime>
                         <range>18</range>
-                        <soundCast>GN_Shot_SaigaTwelveK</soundCast>
+                        <soundCast>HRK_Shot_SaigaTwelveK</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
@@ -441,7 +440,7 @@
 
                 <!--===== BullpupPKP =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_BullpupPKP</defName>
+                    <defName>HRK_BullpupPKP</defName>
                     <statBases>
                         <Mass>7.0</Mass>
                         <RangedWeapon_Cooldown>0.50</RangedWeapon_Cooldown>
@@ -465,7 +464,7 @@
                         <range>66</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                        <soundCast>GN_Shot_BullpupPKP</soundCast>
+                        <soundCast>HRK_Shot_BullpupPKP</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <targetParams>
@@ -489,7 +488,7 @@
 
                 <!--===== Glock 17 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_GlockSeventeen</defName>
+                    <defName>HRK_GlockSeventeen</defName>
                     <statBases>
                         <Mass>1.0</Mass>
                         <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
@@ -510,7 +509,7 @@
                         <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
                         <warmupTime>0.5</warmupTime>
                         <range>12</range>
-                        <soundCast>GN_Shot_GlockSeventeen</soundCast>
+                        <soundCast>HRK_Shot_GlockSeventeen</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>

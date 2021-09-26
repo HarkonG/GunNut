@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
 
   <!--===== AK-103 =====-->
   <!--===== (Service Rifle) Better, same dmg =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_AKOneOThree</defName>
+    <defName>HRK_Bullet_AKOneOThree</defName>
     <label>AK-103 Bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -18,28 +18,25 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
-    <defName>GN_AKOneOThree</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_AKOneOThree</defName>
     <label>AK-103</label>
     <description>The modern version of the famous AK-47. This custom AK-103 features some Magpul attachments and a holographic sight.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_AKOneOThree</texPath>
+      <texPath>Things/Weapons/HRK_AKOneOThree</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
+      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+      <drawOffsetEast>(0.10, 0.0, -0.05)</drawOffsetEast>
+      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+      <drawOffsetWest>(-0.10, 0.0, -0.05)</drawOffsetWest>
     </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <!-- X / Z / Y -->
-        <eastOffset>(0.10,0,-0.05)</eastOffset>
-        <westOffset>(-0.10,0,-0.05)</westOffset>
-      </li>
-    </comps>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -62,12 +59,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_AKOneOThree</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_AKOneOThree</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>35</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_AKOneOThree</soundCast>
+        <soundCast>HRK_Shot_AKOneOThree</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -96,7 +93,7 @@
   <!--===== SA-58 =====-->
   <!--===== (Battle Rifle) Better, same dmg =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_SAFiftyEight</defName>
+    <defName>HRK_Bullet_SAFiftyEight</defName>
     <label>SA-58 Bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -109,28 +106,25 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
-    <defName>GN_SAFiftyEight</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_SAFiftyEight</defName>
     <label>SA-58</label>
     <description>Improved version of the FAL. This custom SA-58 comes with a drum mag and 1-6x scope as well as some attachments to improve recoil control and ergonomics.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_SAFiftyEight</texPath>
+      <texPath>Things/Weapons/HRK_SAFiftyEight</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
+      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+      <drawOffsetEast>(0.15, 0.0, 0.0)</drawOffsetEast>
+      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+      <drawOffsetWest>(-0.15, 0.0, 0.0)</drawOffsetWest>
     </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <!-- X / Z / Y -->
-        <eastOffset>(0.15,0,0)</eastOffset>
-        <westOffset>(-0.15,0,0)</westOffset>
-      </li>
-    </comps>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -153,12 +147,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_SAFiftyEight</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_SAFiftyEight</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>35</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_SAFiftyEight</soundCast>
+        <soundCast>HRK_Shot_SAFiftyEight</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
@@ -187,7 +181,7 @@
   <!--===== R700 =====-->
   <!--===== (Sniper Rifle) More dmg, more precise =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_RSevenHundred</defName>
+    <defName>HRK_Bullet_RSevenHundred</defName>
     <label>R700 Bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Big</texPath>
@@ -201,25 +195,22 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
-    <defName>GN_RSevenHundred</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_RSevenHundred</defName>
     <label>R700</label>
     <description>Heavily modified version of the Remington 700 chambered in .300 W Mag featuring a long range scope and a big a** suppressor.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_RSevenHundred</texPath>
+      <texPath>Things/Weapons/HRK_RSevenHundred</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
+      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+      <drawOffsetEast>(0.15, 0.0, 0.0)</drawOffsetEast>
+      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+      <drawOffsetWest>(-0.15, 0.0, 0.0)</drawOffsetWest>
     </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <!-- X / Z / Y -->
-        <eastOffset>(0.15,0,0)</eastOffset>
-        <westOffset>(-0.15,0,0)</westOffset>
-      </li>
-    </comps>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -242,10 +233,10 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_RSevenHundred</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_RSevenHundred</defaultProjectile>
         <warmupTime>3.5</warmupTime>
         <range>50</range>
-        <soundCast>GN_Shot_RSevenHundred</soundCast>
+        <soundCast>HRK_Shot_RSevenHundred</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -277,7 +268,7 @@
   <!--===== M4A1 =====-->
   <!--===== (Assault Rifle) Same dmg, less range, more precise =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_MFourAOne</defName>
+    <defName>HRK_Bullet_MFourAOne</defName>
     <label>CQC M4A1 Bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -290,22 +281,18 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
-    <defName>GN_MFourAOne</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_MFourAOne</defName>
     <label>CQC M4A1</label>
     <description>Heavily modified version of the classic M4A1 featuring an improved foregrip, 60 round mag, a holographic sight and a suppressor so you can shoot at night and never wake up your fellow colonists.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_MFourAOne</texPath>
+      <texPath>Things/Weapons/HRK_MFourAOne</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-      </li>
-    </comps>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -328,12 +315,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_MFourAOne</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_MFourAOne</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>27</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_MFourAOne</soundCast>
+        <soundCast>HRK_Shot_MFourAOne</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -362,7 +349,7 @@
   <!--===== AK-105 =====-->
   <!--===== (Carbine) Same dmg, better =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_AKOneOFive</defName>
+    <defName>HRK_Bullet_AKOneOFive</defName>
     <label>AK-105 Bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -375,25 +362,21 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
-    <defName>GN_AKOneOFive</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_AKOneOFive</defName>
     <label>AK-105</label>
     <description>The smaller sister of the AK-74M, this AK-105 features some ZenitCo attachments as well as an OKP sight.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_AKOneOFive</texPath>
+      <texPath>Things/Weapons/HRK_AKOneOFive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-      </li>
-    </comps>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -416,12 +399,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_AKOneOFive</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_AKOneOFive</defaultProjectile>
         <warmupTime>0.8</warmupTime>
         <range>24</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_AKOneOFive</soundCast>
+        <soundCast>HRK_Shot_AKOneOFive</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -450,7 +433,7 @@
   <!--===== MP7A1 =====-->
   <!--===== (HeavySMG) More dmg, better =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_MPSevenAOne</defName>
+    <defName>HRK_Bullet_MPSevenAOne</defName>
     <label>MP7A1 Bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -463,25 +446,18 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
-    <defName>GN_MPSevenAOne</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_MPSevenAOne</defName>
     <label>MP7A1</label>
     <description>This weapon was entirely designed to be able to penetrate Kevlar body more effectively. This MP7A1 features a red dot sight, 40 round mags and a suppressor.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_MPSevenAOne</texPath>
+      <texPath>Things/Weapons/HRK_MPSevenAOne</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-      </li>
-    </comps>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
     <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -504,12 +480,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_MPSevenAOne</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_MPSevenAOne</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>23</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_MPSevenAOne</soundCast>
+        <soundCast>HRK_Shot_MPSevenAOne</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>6</muzzleFlashScale>
       </li>
@@ -538,7 +514,7 @@
   <!--===== M1A =====-->
   <!--===== Same dmg, better. =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_MOneA</defName>
+    <defName>HRK_Bullet_MOneA</defName>
     <label>M1A bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
@@ -552,22 +528,19 @@
     </graphicData>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
-    <defName>GN_MOneA</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_MOneA</defName>
     <label>M1A</label>
     <description>The descendant of the classic M1 Garand. This M1A comes with a 30 round mag, a HAMR scope and a slick looking Archangel stock.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_MOneA</texPath>
+      <texPath>Things/Weapons/HRK_MOneA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
+      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+      <drawOffsetEast>(0.15, 0.0, 0.0)</drawOffsetEast>
+      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+      <drawOffsetWest>(-0.15, 0.0, 0.0)</drawOffsetWest>
     </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <!-- X / Z / Y -->
-        <eastOffset>(0.15,0,0)</eastOffset>
-        <westOffset>(-0.15,0,0)</westOffset>
-      </li>
-    </comps>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>50000</WorkToMake>
@@ -587,7 +560,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -596,10 +569,10 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_MOneA</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_MOneA</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>30.9</range>
-        <soundCast>GN_Shot_MOneA</soundCast>
+        <soundCast>HRK_Shot_MOneA</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -628,7 +601,7 @@
   <!--===== Saiga 12K =====-->
   <!--===== Same dmg, better =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_SaigaTwelveK</defName>
+    <defName>HRK_Bullet_SaigaTwelveK</defName>
     <label>Saiga 12k blast</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Shotgun</texPath>
@@ -643,25 +616,22 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
-    <defName>GN_SaigaTwelveK</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_SaigaTwelveK</defName>
     <label>Custom Saiga 12K</label>
     <description>One day Mikhail Kalashnikov woke up and thought what if I make an AK that can shoot shotgun shells. This Saiga12K features a red dot sight, a drum mag and a comfortable foregrip.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_SaigaTwelveK</texPath>
+      <texPath>Things/Weapons/HRK_SaigaTwelveK</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
+      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+      <drawOffsetEast>(0.13, 0.0, 0.0)</drawOffsetEast>
+      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+      <drawOffsetWest>(-0.13, 0.0, 0.0)</drawOffsetWest>
     </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <!-- X / Z / Y -->
-        <eastOffset>(0.13,0,0)</eastOffset>
-        <westOffset>(-0.13,0,0)</westOffset>
-      </li>
-    </comps>
     <soundInteract>Interact_Shotgun</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -684,12 +654,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_SaigaTwelveK</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_SaigaTwelveK</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>12.9</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_SaigaTwelveK</soundCast>
+        <soundCast>HRK_Shot_SaigaTwelveK</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -718,7 +688,7 @@
   <!--===== Bullpup PKP =====-->
   <!--===== Same dmg, better =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_BullpupPKP</defName>
+    <defName>HRK_Bullet_BullpupPKP</defName>
     <label>Bullpup PKP bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
@@ -733,28 +703,25 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
-    <defName>GN_BullpupPKP</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_BullpupPKP</defName>
     <label>Bullpup PKP</label>
     <description>Bullpup version of the "Pecheneg" or PKP, the smaller size of this desing allows for a better performance during urban combat without losing firepower.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_BullpupPKP</texPath>
+      <texPath>Things/Weapons/HRK_BullpupPKP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
+      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+      <drawOffsetEast>(0.15, 0.0, -0.05)</drawOffsetEast>
+      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+      <drawOffsetWest>(-0.15, 0.0, -0.05)</drawOffsetWest>
     </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-        <!-- X / Z / Y -->
-        <eastOffset>(0.15,0,-0.05)</eastOffset>
-        <westOffset>(-0.15,0,-0.05)</westOffset>
-      </li>
-    </comps>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -780,12 +747,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_BullpupPKP</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_BullpupPKP</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>33</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
-        <soundCast>GN_Shot_BullpupPKP</soundCast>
+        <soundCast>HRK_Shot_BullpupPKP</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -817,7 +784,7 @@
   <!--===== Glock 17 =====-->
   <!--===== Less damage, beter and faster =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_GlockSeventeen</defName>
+    <defName>HRK_Bullet_GlockSeventeen</defName>
     <label>Glock 17 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -830,12 +797,12 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
-    <defName>GN_GlockSeventeen</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_GlockSeventeen</defName>
     <label>Glock 17</label>
     <description>In the present day, more than 40 countries use Glock pistols on their police corps. This Glock 17 is modified with Zev Tech attachments as well as a Trijicon RMR Reflex Sight.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_GlockSeventeen</texPath>
+      <texPath>Things/Weapons/HRK_GlockSeventeen</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
@@ -843,7 +810,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -866,10 +833,10 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_GlockSeventeen</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_GlockSeventeen</defaultProjectile>
         <warmupTime>0.3</warmupTime>
         <range>25.9</range>
-        <soundCast>GN_Shot_GlockSeventeen</soundCast>
+        <soundCast>HRK_Shot_GlockSeventeen</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>7</muzzleFlashScale>
       </li>

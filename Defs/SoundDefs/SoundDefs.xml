@@ -3,7 +3,7 @@
 <Defs>
 
     <SoundDef>
-        <defName>GN_Shot_AKOneOThree</defName>
+        <defName>HRK_Shot_AKOneOThree</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -11,7 +11,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_AKOneOThree</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_AKOneOThree</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -28,7 +28,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_AKOneOFive</defName>
+        <defName>HRK_Shot_AKOneOFive</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -36,7 +36,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_AKOneOFive</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_AKOneOFive</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -53,7 +53,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_SAFiftyEight</defName>
+        <defName>HRK_Shot_SAFiftyEight</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -61,7 +61,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_SAFiftyEight</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SAFiftyEight</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -78,7 +78,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_MFourAOne</defName>
+        <defName>HRK_Shot_MFourAOne</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -86,7 +86,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_MFourAOne</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_MFourAOne</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -103,7 +103,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_RSevenHundred</defName>
+        <defName>HRK_Shot_RSevenHundred</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -111,7 +111,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_RSevenHundred</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_RSevenHundred</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -128,7 +128,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_MPSevenAOne</defName>
+        <defName>HRK_Shot_MPSevenAOne</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -136,7 +136,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_MPSevenAOne</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_MPSevenAOne</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -153,7 +153,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_MOneA</defName>
+        <defName>HRK_Shot_MOneA</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -161,7 +161,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_MOneA</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_MOneA</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -178,7 +178,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_SaigaTwelveK</defName>
+        <defName>HRK_Shot_SaigaTwelveK</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -186,7 +186,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_SaigaTwelveK</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SaigaTwelveK</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -203,7 +203,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_BullpupPKP</defName>
+        <defName>HRK_Shot_BullpupPKP</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -211,7 +211,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_BullpupPKP</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_BullpupPKP</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -228,7 +228,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_GlockSeventeen</defName>
+        <defName>HRK_Shot_GlockSeventeen</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -236,7 +236,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_GlockSeventeen</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_GlockSeventeen</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
