@@ -20,7 +20,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_AKOneOThree</defName>
-    <label>AK-103</label>
+    <label>Magpul AK-103</label>
     <description>The modern version of the famous AK-47. This custom AK-103 features some Magpul attachments and a holographic sight.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_AKOneOThree</texPath>
@@ -108,7 +108,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SAFiftyEight</defName>
-    <label>SA-58</label>
+    <label>SA-58L</label>
     <description>Improved version of the FAL. This custom SA-58 comes with a drum mag and 1-6x scope as well as some attachments to improve recoil control and ergonomics.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_SAFiftyEight</texPath>
@@ -197,7 +197,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_RSevenHundred</defName>
-    <label>R700</label>
+    <label>R700 MOD X</label>
     <description>Heavily modified version of the Remington 700 chambered in .300 W Mag featuring a long range scope and a big a** suppressor.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_RSevenHundred</texPath>
@@ -364,7 +364,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_AKOneOFive</defName>
-    <label>AK-105</label>
+    <label>Zenitco AK-105</label>
     <description>The smaller sister of the AK-74M, this AK-105 features some ZenitCo attachments as well as an OKP sight.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_AKOneOFive</texPath>
@@ -448,7 +448,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_MPSevenAOne</defName>
-    <label>MP7A1</label>
+    <label>MP7A1SD</label>
     <description>This weapon was entirely designed to be able to penetrate Kevlar body more effectively. This MP7A1 features a red dot sight, 40 round mags and a suppressor.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_MPSevenAOne</texPath>
@@ -530,7 +530,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_MOneA</defName>
-    <label>M1A</label>
+    <label>Archangel M1A</label>
     <description>The descendant of the classic M1 Garand. This M1A comes with a 30 round mag, a HAMR scope and a slick looking Archangel stock.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_MOneA</texPath>
