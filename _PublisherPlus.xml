@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Excluded>
+    <exclude>D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\GunNut-Chapter-1\.git</exclude>
+    <exclude>D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\GunNut-Chapter-1\README.md</exclude>
+  </Excluded>
+</Configuration>

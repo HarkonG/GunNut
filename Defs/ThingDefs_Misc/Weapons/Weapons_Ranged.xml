@@ -88,6 +88,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== SA-58 =====-->
@@ -176,6 +179,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== R700 =====-->
@@ -263,6 +269,9 @@
     <weaponTags Inherit="False">
       <li>SniperRifle</li>
     </weaponTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
   </ThingDef>
 
   <!--===== M4A1 =====-->
@@ -344,6 +353,12 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
   </ThingDef>
 
   <!--===== AK-105 =====-->
@@ -428,6 +443,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== MP7A1 =====-->
@@ -509,6 +527,12 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
   </ThingDef>
 
   <!--===== M1A =====-->
@@ -596,6 +620,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== Saiga 12K =====-->
@@ -618,7 +645,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SaigaTwelveK</defName>
-    <label>Custom Saiga 12K</label>
+    <label>Saiga 12K (custom)</label>
     <description>One day Mikhail Kalashnikov woke up and thought what if I make an AK that can shoot shotgun shells. This Saiga12K features a red dot sight, a drum mag and a comfortable foregrip.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_SaigaTwelveK</texPath>
@@ -683,6 +710,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== Bullpup PKP =====-->
@@ -757,9 +787,6 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>GunHeavy</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -779,6 +806,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== Glock 17 =====-->
@@ -799,7 +829,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_GlockSeventeen</defName>
-    <label>Glock 17</label>
+    <label>ZevTech Glock 17</label>
     <description>In the present day, more than 40 countries use Glock pistols on their police corps. This Glock 17 is modified with Zev Tech attachments as well as a Trijicon RMR Reflex Sight.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_GlockSeventeen</texPath>
@@ -860,6 +890,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
   </ThingDef>
 
 </Defs>
