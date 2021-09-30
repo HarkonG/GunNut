@@ -18,6 +18,11 @@
 			<displayName>[HRK] Gun Nut - CORE</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2614317714</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>CarnySenpai.EnableOversizedWeapons</packageId>
+			<displayName>Enable Oversized Weapons</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2543371889</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
