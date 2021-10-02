@@ -452,7 +452,7 @@
   <!--===== (HeavySMG) More dmg, better =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_MPSevenAOne</defName>
-    <label>MP7A1SD Bullet</label>
+    <label>MP7A1 SD Bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -466,7 +466,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_MPSevenAOne</defName>
-    <label>MP7A1SD</label>
+    <label>MP7A1 SD</label>
     <description>This weapon was entirely designed to be able to penetrate Kevlar body more effectively. This MP7A1 features a red dot sight, 40 round mags and a suppressor.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_MPSevenAOne</texPath>
