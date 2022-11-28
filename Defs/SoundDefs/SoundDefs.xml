@@ -10,8 +10,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_AKOneOThree</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_AKOneOThree</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -35,8 +35,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_AKOneOFive</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_AKOneOFive</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -60,8 +60,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_SAFiftyEight</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_SAFiftyEight</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -85,8 +85,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_MFourAOne</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_MFourAOne</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -110,8 +110,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_RSevenHundred</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_RSevenHundred</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -135,8 +135,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_MPSevenAOne</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_MPSevenAOne</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -160,8 +160,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_MOneA</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_MOneA</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -185,8 +185,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_SaigaTwelveK</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_SaigaTwelveK</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -210,8 +210,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_BullpupPKP</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_BullpupPKP</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -235,8 +235,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_GlockSeventeen</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_GlockSeventeen</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
