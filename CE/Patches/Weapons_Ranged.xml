@@ -432,6 +432,12 @@
         </weaponTags>
     </Operation>
 
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName = "Gun_ChainShotgun"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/magazineSize</xpath>
+        <value>
+            <magazineSize>5</magazineSize>
+        </value>
+    </Operation>
 
     <!--===== BullpupPKP =====-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
