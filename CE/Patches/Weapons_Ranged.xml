@@ -426,7 +426,7 @@
             <reloadTime>4</reloadTime>
             <ammoSet>AmmoSet_12Gauge</ammoSet>
         </AmmoUser>
-        <FireModes />
+        <FireModes/>
         <weaponTags>
             <li>CE_AI_AssaultWeapon</li>
         </weaponTags>

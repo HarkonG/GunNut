@@ -5,7 +5,7 @@
     <SoundDef>
         <defName>HRK_Shot_AKOneOThree</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -30,7 +30,7 @@
     <SoundDef>
         <defName>HRK_Shot_AKOneOFive</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -55,7 +55,7 @@
     <SoundDef>
         <defName>HRK_Shot_SAFiftyEight</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -80,7 +80,7 @@
     <SoundDef>
         <defName>HRK_Shot_MFourAOne</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -105,7 +105,7 @@
     <SoundDef>
         <defName>HRK_Shot_RSevenHundred</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -130,7 +130,7 @@
     <SoundDef>
         <defName>HRK_Shot_MPSevenAOne</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -155,7 +155,7 @@
     <SoundDef>
         <defName>HRK_Shot_MOneA</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -180,7 +180,7 @@
     <SoundDef>
         <defName>HRK_Shot_SaigaTwelveK</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -205,7 +205,7 @@
     <SoundDef>
         <defName>HRK_Shot_BullpupPKP</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -230,7 +230,7 @@
     <SoundDef>
         <defName>HRK_Shot_GlockSeventeen</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
